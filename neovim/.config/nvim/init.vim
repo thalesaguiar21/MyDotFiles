@@ -14,6 +14,7 @@ source ~/.config/nvim/treesitter-config.vim
 source ~/.config/nvim/lsp-config.vim
 luafile ~/.config/nvim/compe-config.lua
 luafile ~/.config/nvim/python-lsp.lua
+luafile ~/.config/nvim/html-lsp.lua
 luafile ~/.config/nvim/latex-lsp.lua
 
 source ~/.config/nvim/mappings.vim

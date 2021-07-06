@@ -11,4 +11,4 @@ nnoremap <silent> <C-p> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 
 " auto-format
 autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.tex lua vim.lsp.buf.formatting_sync(nil, 100)
+autocmd BufWritePre *.html lua vim.lsp.buf.formatting_sync(nil, 100)
