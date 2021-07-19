@@ -1,10 +1,4 @@
-set encoding=utf-8
-set number
-syntax enable
-set noswapfile
-set scrolloff=5
-
-
+source ~/.config/nvim/settings.vim
 source ~/.config/nvim/plugins.vim
 " Plugins  Configurations
 source ~/.config/nvim/ale-config.vim
@@ -16,7 +10,6 @@ luafile ~/.config/nvim/compe-config.lua
 luafile ~/.config/nvim/python-lsp.lua
 luafile ~/.config/nvim/html-lsp.lua
 luafile ~/.config/nvim/latex-lsp.lua
-
 source ~/.config/nvim/mappings.vim
 
 " Colorscheme
