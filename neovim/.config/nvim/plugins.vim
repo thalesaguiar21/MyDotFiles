@@ -12,5 +12,7 @@ Plug 'dense-analysis/ale'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/playground'
+Plug 'navarasu/onedark.nvim'
+Plug 'bluz71/vim-moonfly-colors'
 
 call plug#end()
