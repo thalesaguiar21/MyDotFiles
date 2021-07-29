@@ -15,5 +15,6 @@ Plug 'nvim-treesitter/playground'
 Plug 'navarasu/onedark.nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'jmcantrell/vim-virtualenv'
+Plug 'dracula/vim', { 'name': 'dracula' }
 
 call plug#end()
