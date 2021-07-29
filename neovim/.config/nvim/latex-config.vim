@@ -5,7 +5,7 @@ Commands:
 Default Values:
   cmd = { "texlab" }
   filetypes = { "tex", "bib" }
-  root_dir = vim's starting directory
+  root_dir = /home/thales/.cargo/bin/texlab
   settings = {
     texlab = {
       auxDirectory = ".",
@@ -16,13 +16,17 @@ Default Values:
         isContinuous = false
       },
       chktex = {
-        onEdit = false,
-        onOpenAndSave = false
+        onEdit = true,
+        onOpenAndSave = true 
       },
       diagnosticsDelay = 300,
       formatterLineLength = 80,
       forwardSearch = {
         args = {}
+      }
+      latexFormatter = "latexindent",
+      latexindent = {
+          modifyLineBreaks = true 
       }
     }
   }
