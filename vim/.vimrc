@@ -28,7 +28,7 @@ Plugin 'drewtempelmeyer/palenight.vim'
 Plugin 'sonph/onehalf', { 'rtp': 'vim' }
 Plugin 'iamcco/markdown-preview.nvim'
 Plugin 'morhetz/gruvbox'
-Bundle 'Valloric/YouCompleteMe'
+" Bundle 'Valloric/YouCompleteMe'
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
