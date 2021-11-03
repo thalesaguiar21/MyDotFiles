@@ -1,0 +1,14 @@
+# Backup Documents
+00 08 * * 5 rsync -aAXv --delete --exclude={Zoom,pipelines,.git,'*.mp3'} /home/thales/Documents /media/thales/Dados/linux-bkp/
+
+# Backup Pictures
+00 08 * * 5 rsync -aAXv --delete --exclude=Wallpapers /home/thales/Pictures /media/thales/Dados/linux-bkp/
+
+# Backup Dotfiles
+00 08 * * 5 rsync -aAXv --delete --exclude=.git /home/thales/dotfiles /media/thales/Dados/linux-bkp
+
+# Backup Fonts
+00 08 * * 5 rsync -aAXv --delete /home/thales/.fonts /media/thales/Dados/linux-bkp
+
+# Backup Development
+00 08 * * 5 rsync -aAXv --delete --exclude={.git,'*.mp3'} /home/thales/Dev /media/thales/Dados/linux-bkp/
